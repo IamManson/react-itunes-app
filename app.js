@@ -23,6 +23,7 @@ app.use(
         directives: {
           ...helmet.contentSecurityPolicy.getDefaultDirectives(),
           "script-src": ["'self'", "'unsafe-inline'", "http://localhost:3001", "https://itunes.apple.com"],
+          "img-src": ["'self'", "'unsafe-inline'", "https://*.mzstatic.com"],
         },
       },
     })
