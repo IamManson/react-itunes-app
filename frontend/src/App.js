@@ -31,7 +31,7 @@ class App extends React.Component {
       results: [],
       favourites: [],
       loading: false,
-      error: "Error - Please try again"
+      error: "Start New Search"
     };
 
     //Binding App Function
